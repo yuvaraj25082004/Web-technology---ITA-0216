@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" type="text/css" href="library.css">
+</head>
+<body>
+
+<!-- Librarian Admin Interface -->
+<div id="librarian">
+    <h2>Librarian Admin</h2>
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Add Book Form -->
+    <form action="/add-book" method="post">
+        <h3>Add Book</h3>
+        <!-- Include necessary input fields for adding a book -->
+        <button type="submit">Add Book</button>
+    </form>
+
+    <!-- Update/Delete Book Form -->
+    <form action="/update-book" method="post">
+        <h3>Update/Delete Book</h3>
+        <!-- Include necessary input fields for updating/deleting a book -->
+        <button type="submit">Update/Delete Book</button>
+    </form>
+
+    <!-- Issue Book Form -->
+    <form action="/issue-book" method="post">
+        <h3>Issue Book for Student</h3>
+        <!-- Include necessary input fields for issuing a book -->
+        <button type="submit">Issue Book</button>
+    </form>
+
+    <!-- Return Book Status Form -->
+    <form action="/return-book" method="post">
+        <h3>Return Book Status</h3>
+        <!-- Include necessary input fields for returning a book -->
+        <button type="submit">Return Book</button>
+    </form>
+
+    <!-- Make Fine Form -->
+    <form action="/make-fine" method="post">
+        <h3>Make Fine</h3>
+        <!-- Include necessary input fields for making a fine -->
+        <button type="submit">Make Fine</button>
+    </form>
+
+    <!-- Update Material Form -->
+    <form action="/update-material" method="post">
+        <h3>Update Material</h3>
+        <!-- Include necessary input fields for updating material -->
+        <button type="submit">Update Material</button>
+    </form>
+
+    <!-- View Material Form -->
+    <form action="/view-material" method="post">
+        <h3>View Material</h3>
+        <!-- Include necessary input fields for viewing material -->
+        <button type="submit">View Material</button>
+    </form>
+</div>
+
+<!-- User Interface -->
+<div id="user">
+    <h2>User</h2>
+    <form action="/user-login" method="post">
+        <label for="user-username">Username:</label>
+        <input type="text" id="user-username" name="user-username" required>
+        <br>
+        <label for="user-password">Password:</label>
+        <input type="password" id="user-password" name="user-password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Register Form -->
+    <form action="/register" method="post">
+        <h3>Register</h3>
+        <!-- Include necessary input fields for user registration -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Search Book Form -->
+    <form action="/search-book" method="post">
+        <h3>Search Book</h3>
+        <!-- Include necessary input fields for searching a book -->
+        <button type="submit">Search Book</button>
+    </form>
+
+    <!-- My Borrow History Book Form -->
+    <form action="/borrow-history" method="post">
+        <h3>My Borrow History Book</h3>
+        <!-- Include necessary input fields for displaying borrow history -->
+        <button type="submit">Show History</button>
+    </form>
+
+    <!-- Check Fine Form -->
+    <form action="/check-fine" method="post">
+        <h3>Check Fine</h3>
+        <!-- Include necessary input fields for checking fines -->
+        <button type="submit">Check Fine</button>
+    </form>
+
+    <!-- Search Material Form -->
+    <form action="/search-material" method="post">
+        <h3>Search Material</h3>
+        <!-- Include necessary input fields for searching material -->
+        <button type="submit">Search Material</button>
+    </form>
+
+    <!-- Download Material Form -->
+    <form action="/download-material" method="post">
+        <h3>Download Material</h3>
+        <!-- Include necessary input fields for downloading material -->
+        <button type="submit">Download Material</button>
+    </form>
+
+    <!-- My Profile Form -->
+    <form action="/my-profile" method="post">
+        <h3>My Profile</h3>
+        <!-- Include necessary input fields for displaying user profile -->
+        <button type="submit">View Profile</button>
+    </form>
+</div>
+</body>
+</html>
