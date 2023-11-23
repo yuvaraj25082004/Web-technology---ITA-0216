@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Agri & Co Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            max-width: 200px;
+            float: left;
+            background-color: #fff;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cart {
+            clear: both;
+            margin-top: 20px;
+            text-align: center;
+        }
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Agriculture Shop</h1>
+    <div class="product">
+        <img src="seeds.jpeg" alt="Seeds">
+        <h2>Vegetable Seeds</h2>
+        <p>$4.99</p>
+        <input type="submit" value="Add to Cart">
+    </div>
+    <div class="product">
+        <img src="fertilizer.jpeg" alt="Fertilizer">
+        <h2>Organic Fertilizer</h2>
+        <p>$6.99</p>
+        <input type="submit" value="Add to Cart">
+    </div>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <form id="cartForm">
+            <button type="submit"><a href="agri.html">Proceed to Checkout</a></p></button>
+            <p class="message">Not registered? <a href="agri.html">Create an account</a></p>
+        </form>
+    </div>
+
+</body>
+</html>
